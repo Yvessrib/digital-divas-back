@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1712148340025,
+      "tag": "0000_numerous_microbe",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1712148467735,
+      "tag": "0001_amusing_vision",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1712176944972,
+      "tag": "0002_harsh_living_tribunal",
+      "breakpoints": true
+    }
+  ]
+}
