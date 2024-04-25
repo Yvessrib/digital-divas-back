@@ -19,9 +19,10 @@ app.register(fastifyJwt, {
 })
 
 app.register(fastifyCors, {
-  origin: '*',
+  origin: '76.76.21.93',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
 })
 
 app.register(fastifyCookie)
