@@ -19,7 +19,7 @@ app.register(fastifyJwt, {
 })
 
 app.register(fastifyCors, {
-  origin: '76.76.21.93',
+  origin: 'https://digital-divas-front.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
